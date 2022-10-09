@@ -28,3 +28,8 @@ let jenisKelamin: Gender3 = Gender3.Male;
 let heroes: any = "Iron Man"
 let arrayAny: any[] = [1, "Spriderman"]
 heroes = 20
+
+// Union Type
+let phone: number | string;
+phone = 6281111
+phone = "081111"

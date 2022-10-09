@@ -30,3 +30,14 @@ const Kurang: Operasi = ( i: number, j: number): number => {
 }
 const soal1 = Tambah(4, 20)
 const soal2 = Kurang(34, 12)
+
+// Default Parameter
+const fullName = (first:string, last: string = "Aslim"): string => {
+    return first + " " + last
+}
+
+// Optional Parameter
+const getKalimat = (a: string, b?: string): string => {
+    return a + " " + b
+}
+console.log(getKalimat("Fajrul"))
