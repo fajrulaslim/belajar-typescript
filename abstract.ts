@@ -1,3 +1,4 @@
+// Tidak bisa di inisialisasi lgsung, harus di extends child kelasnya
 abstract class Vehicle {
     abstract wheels: number
 

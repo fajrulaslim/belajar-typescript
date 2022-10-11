@@ -1,3 +1,5 @@
+//TIPE DATA YANG DINAMIS
+
 function getData(value: any) {
     return value
 }

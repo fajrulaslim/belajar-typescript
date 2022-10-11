@@ -42,6 +42,7 @@ class Admin extends User {
         this.phone = phone
     }
 
+    // Bisa diakses tanpa diinisialisasi
     static getHei() {
         return "Hei"
     }
